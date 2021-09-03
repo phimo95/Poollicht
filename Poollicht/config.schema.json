@@ -1,0 +1,16 @@
+{
+  "pluginAlias": "OnkyoSerial",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "paths": {
+        "title": "Serial Port Device(s)",
+        "type": "array",
+        "required": true,
+        "default": "/dev/ttyS0"
+      }
+    }
+  }
+}
